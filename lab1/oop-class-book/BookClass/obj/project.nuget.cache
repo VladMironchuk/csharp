@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "dgSpecHash": "Byf3qu8u2SSgXbVzbIvkisojpzQhFIwY5u7N3IjFanvZJ2ArBxenwDJlLwcJixBA9z3W1nAY1raaJHEB+T/AoA==",
+  "success": true,
+  "projectFilePath": "D:\\downloads\\oop-class-book\\oop-class-book\\BookClass\\BookClass.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\VLAD\\.nuget\\packages\\buildtools.fxcop\\1.0.1\\buildtools.fxcop.1.0.1.nupkg.sha512",
+    "C:\\Users\\VLAD\\.nuget\\packages\\microsoft.codeanalysis.fxcopanalyzers\\3.0.0\\microsoft.codeanalysis.fxcopanalyzers.3.0.0.nupkg.sha512",
+    "C:\\Users\\VLAD\\.nuget\\packages\\microsoft.codeanalysis.versioncheckanalyzer\\3.0.0\\microsoft.codeanalysis.versioncheckanalyzer.3.0.0.nupkg.sha512",
+    "C:\\Users\\VLAD\\.nuget\\packages\\microsoft.codequality.analyzers\\3.0.0\\microsoft.codequality.analyzers.3.0.0.nupkg.sha512",
+    "C:\\Users\\VLAD\\.nuget\\packages\\microsoft.netcore.analyzers\\3.0.0\\microsoft.netcore.analyzers.3.0.0.nupkg.sha512",
+    "C:\\Users\\VLAD\\.nuget\\packages\\microsoft.netframework.analyzers\\3.0.0\\microsoft.netframework.analyzers.3.0.0.nupkg.sha512",
+    "C:\\Users\\VLAD\\.nuget\\packages\\stylecop.analyzers\\1.1.118\\stylecop.analyzers.1.1.118.nupkg.sha512",
+    "C:\\Users\\VLAD\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\VLAD\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\VLAD\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "yGJ7QV4BcRrhFzu5bjSR2A58Hx0f0+4dZqswC5ZF4ooiomleQetz7DlK2SUiMgYKAtrN9tkisk6JNPrroh0luA==",
+  "success": true,
+  "projectFilePath": "D:\\downloads\\oop-class-book\\oop-class-book\\VerificationService\\VerificationService.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\VLAD\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\VLAD\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\VLAD\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512"
+  ],
+  "logs": []
+}
