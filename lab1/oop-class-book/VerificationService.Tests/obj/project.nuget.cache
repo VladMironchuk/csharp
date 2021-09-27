@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Jcs28uJU7VUS2OBiO2W6JnTUYy2K8HD0pXw7Kr37jlhUaEBejWDYXpopMyzzfs7dBrJJw9+xoC5FMo+Qw0zhEg==",
+  "dgSpecHash": "JoW0Z2KZq/cNBrEPYIg9817B30zZkv246h3yfeV/2iU8Yusk9a9iOSoAClXVRkUC5BGQw5AbYaNaM7JMo+LKDg==",
   "success": true,
-  "projectFilePath": "D:\\downloads\\oop-class-book\\oop-class-book\\VerificationService.Tests\\VerificationService.Tests.csproj",
+  "projectFilePath": "E:\\info\\c#\\csharp\\lab1\\oop-class-book\\VerificationService.Tests\\VerificationService.Tests.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\VLAD\\.nuget\\packages\\buildtools.fxcop\\1.0.1\\buildtools.fxcop.1.0.1.nupkg.sha512",
     "C:\\Users\\VLAD\\.nuget\\packages\\microsoft.codecoverage\\16.11.0\\microsoft.codecoverage.16.11.0.nupkg.sha512",
     "C:\\Users\\VLAD\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",
     "C:\\Users\\VLAD\\.nuget\\packages\\microsoft.net.test.sdk\\16.11.0\\microsoft.net.test.sdk.16.11.0.nupkg.sha512",

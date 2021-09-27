@@ -10,6 +10,7 @@
     </ItemGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\BookClass\BookClass.csproj" />
       <ProjectReference Include="..\VerificationService\VerificationService.csproj" />
     </ItemGroup>
 

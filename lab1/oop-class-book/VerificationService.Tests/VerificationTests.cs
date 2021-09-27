@@ -1,4 +1,5 @@
 ﻿using System;
+using BookClass;
 using NUnit.Framework;
 
 #pragma warning disable CA1707 // Identifiers should not contain underscores
@@ -50,6 +51,27 @@ namespace VerificationService.Tests
         public void IsoCurrencyValidator_ArgumentException(string currency)
         {
             Assert.Throws<ArgumentException>(() => IsoCurrencyValidator.IsValid(currency), "not ISO format");
+        }
+        
+        //My Tests
+        [Test]
+        public void Book_Publish_Test()
+        {
+            const int year = 2011;
+            const int month = 11;
+            const int day = 11;
+            DateTime date = new DateTime(year, month, day);
+
+            Book book = new Book("Author", "Title", "Publisher");
+            book.Publish(date);
+            Assert.AreEqual(book.GetPublicationDate(), $"{month}/{day}/{year}");
+        }
+
+        [Test]
+        public void Book_Publish_NotPublished_Test()
+        {
+            Book book = new Book("Author", "Title", "Publisher");
+            Assert.AreEqual(book.GetPublicationDate(), "NYP");
         }
     }
 }

@@ -2,6 +2,9 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.1": {
+      "BuildTools.FxCop/1.0.1": {
+        "type": "package"
+      },
       "Microsoft.CodeCoverage/16.11.0": {
         "type": "package",
         "compile": {
@@ -871,6 +874,20 @@
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
       },
+      "BookClass/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "BuildTools.FxCop": "1.0.1",
+          "VerificationService": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BookClass.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BookClass.dll": {}
+        }
+      },
       "VerificationService/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
@@ -884,6 +901,24 @@
     }
   },
   "libraries": {
+    "BuildTools.FxCop/1.0.1": {
+      "sha512": "Twlhrm23jXmYSlMf7C7154ZhmgQaqn2fdVgAQzf4vTitJkobpoaV1JgjFQXk3CPdCajZUzCA6oHWhZsXwqB8CQ==",
+      "type": "package",
+      "path": "buildtools.fxcop/1.0.1",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "buildtools.fxcop.1.0.1.nupkg.sha512",
+        "buildtools.fxcop.nuspec",
+        "content/CodeAnalysisRules.ruleset",
+        "tools/BuildTools.MsBuild.psm1",
+        "tools/FxCop.psm1",
+        "tools/Install.ps1",
+        "tools/Uninstall.ps1",
+        "tools/init.ps1"
+      ]
+    },
     "Microsoft.CodeCoverage/16.11.0": {
       "sha512": "wf6lpAeCqP0KFfbDVtfL50lr7jY1gq0+0oSphyksfLOEygMDXqnaxHK5LPFtMEhYSEtgXdNyXNnEddOqQQUdlQ==",
       "type": "package",
@@ -3767,6 +3802,11 @@
         "system.xml.xdocument.nuspec"
       ]
     },
+    "BookClass/1.0.0": {
+      "type": "project",
+      "path": "../BookClass/BookClass.csproj",
+      "msbuildProject": "../BookClass/BookClass.csproj"
+    },
     "VerificationService/1.0.0": {
       "type": "project",
       "path": "../VerificationService/VerificationService.csproj",
@@ -3775,6 +3815,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "BookClass >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 16.11.0",
       "NUnit >= 3.13.2",
       "VerificationService >= 1.0.0"
@@ -3786,11 +3827,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\downloads\\oop-class-book\\oop-class-book\\VerificationService.Tests\\VerificationService.Tests.csproj",
+      "projectUniqueName": "E:\\info\\c#\\csharp\\lab1\\oop-class-book\\VerificationService.Tests\\VerificationService.Tests.csproj",
       "projectName": "VerificationService.Tests",
-      "projectPath": "D:\\downloads\\oop-class-book\\oop-class-book\\VerificationService.Tests\\VerificationService.Tests.csproj",
+      "projectPath": "E:\\info\\c#\\csharp\\lab1\\oop-class-book\\VerificationService.Tests\\VerificationService.Tests.csproj",
       "packagesPath": "C:\\Users\\VLAD\\.nuget\\packages\\",
-      "outputPath": "D:\\downloads\\oop-class-book\\oop-class-book\\VerificationService.Tests\\obj\\",
+      "outputPath": "E:\\info\\c#\\csharp\\lab1\\oop-class-book\\VerificationService.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\VLAD\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -3805,8 +3846,11 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "D:\\downloads\\oop-class-book\\oop-class-book\\VerificationService\\VerificationService.csproj": {
-              "projectPath": "D:\\downloads\\oop-class-book\\oop-class-book\\VerificationService\\VerificationService.csproj"
+            "E:\\info\\c#\\csharp\\lab1\\oop-class-book\\BookClass\\BookClass.csproj": {
+              "projectPath": "E:\\info\\c#\\csharp\\lab1\\oop-class-book\\BookClass\\BookClass.csproj"
+            },
+            "E:\\info\\c#\\csharp\\lab1\\oop-class-book\\VerificationService\\VerificationService.csproj": {
+              "projectPath": "E:\\info\\c#\\csharp\\lab1\\oop-class-book\\VerificationService\\VerificationService.csproj"
             }
           }
         }

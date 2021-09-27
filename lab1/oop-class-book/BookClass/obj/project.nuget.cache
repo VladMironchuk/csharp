@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Byf3qu8u2SSgXbVzbIvkisojpzQhFIwY5u7N3IjFanvZJ2ArBxenwDJlLwcJixBA9z3W1nAY1raaJHEB+T/AoA==",
+  "dgSpecHash": "Emyd1qrLto9gA9vkoGZqdnkiURaQaDhn6dupwomPdv/zH1u9RfGV9JNE4rvebsne+RUlBVMgEJrzQa+jRg/b5w==",
   "success": true,
-  "projectFilePath": "D:\\downloads\\oop-class-book\\oop-class-book\\BookClass\\BookClass.csproj",
+  "projectFilePath": "E:\\info\\c#\\csharp\\lab1\\oop-class-book\\BookClass\\BookClass.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\VLAD\\.nuget\\packages\\buildtools.fxcop\\1.0.1\\buildtools.fxcop.1.0.1.nupkg.sha512",
     "C:\\Users\\VLAD\\.nuget\\packages\\microsoft.codeanalysis.fxcopanalyzers\\3.0.0\\microsoft.codeanalysis.fxcopanalyzers.3.0.0.nupkg.sha512",

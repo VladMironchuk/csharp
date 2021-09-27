@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\downloads\\oop-class-book\\oop-class-book\\BookClass\\BookClass.csproj": {}
+    "E:\\info\\c#\\csharp\\lab1\\oop-class-book\\BookClass\\BookClass.csproj": {}
   },
   "projects": {
-    "D:\\downloads\\oop-class-book\\oop-class-book\\BookClass\\BookClass.csproj": {
+    "E:\\info\\c#\\csharp\\lab1\\oop-class-book\\BookClass\\BookClass.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\downloads\\oop-class-book\\oop-class-book\\BookClass\\BookClass.csproj",
+        "projectUniqueName": "E:\\info\\c#\\csharp\\lab1\\oop-class-book\\BookClass\\BookClass.csproj",
         "projectName": "BookClass",
-        "projectPath": "D:\\downloads\\oop-class-book\\oop-class-book\\BookClass\\BookClass.csproj",
+        "projectPath": "E:\\info\\c#\\csharp\\lab1\\oop-class-book\\BookClass\\BookClass.csproj",
         "packagesPath": "C:\\Users\\VLAD\\.nuget\\packages\\",
-        "outputPath": "D:\\downloads\\oop-class-book\\oop-class-book\\BookClass\\obj\\",
+        "outputPath": "E:\\info\\c#\\csharp\\lab1\\oop-class-book\\BookClass\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\VLAD\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -26,8 +26,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\downloads\\oop-class-book\\oop-class-book\\VerificationService\\VerificationService.csproj": {
-                "projectPath": "D:\\downloads\\oop-class-book\\oop-class-book\\VerificationService\\VerificationService.csproj"
+              "E:\\info\\c#\\csharp\\lab1\\oop-class-book\\VerificationService\\VerificationService.csproj": {
+                "projectPath": "E:\\info\\c#\\csharp\\lab1\\oop-class-book\\VerificationService\\VerificationService.csproj"
               }
             }
           }
@@ -92,14 +92,14 @@
         }
       }
     },
-    "D:\\downloads\\oop-class-book\\oop-class-book\\VerificationService\\VerificationService.csproj": {
+    "E:\\info\\c#\\csharp\\lab1\\oop-class-book\\VerificationService\\VerificationService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\downloads\\oop-class-book\\oop-class-book\\VerificationService\\VerificationService.csproj",
+        "projectUniqueName": "E:\\info\\c#\\csharp\\lab1\\oop-class-book\\VerificationService\\VerificationService.csproj",
         "projectName": "VerificationService",
-        "projectPath": "D:\\downloads\\oop-class-book\\oop-class-book\\VerificationService\\VerificationService.csproj",
+        "projectPath": "E:\\info\\c#\\csharp\\lab1\\oop-class-book\\VerificationService\\VerificationService.csproj",
         "packagesPath": "C:\\Users\\VLAD\\.nuget\\packages\\",
-        "outputPath": "D:\\downloads\\oop-class-book\\oop-class-book\\VerificationService\\obj\\",
+        "outputPath": "E:\\info\\c#\\csharp\\lab1\\oop-class-book\\VerificationService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\VLAD\\AppData\\Roaming\\NuGet\\NuGet.Config"
