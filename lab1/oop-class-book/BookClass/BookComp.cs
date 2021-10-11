@@ -4,14 +4,16 @@ using System.Collections.Generic;
 namespace BookClass
 {
     /// <summary>
-    /// eofewop
+    /// Book comparison.
     /// </summary>
     public class BookComp : IComparer<Book>
     {
         /// <summary>
-        /// eofewop
+        /// Compare 2 Book's instances.
         /// </summary>
-        /// <returns></returns>
+        /// <param name="book1">book 1.</param>
+        /// <param name="book2">book 2.</param>
+        /// <returns>Int regarding the comparison.</returns>
         public int Compare(Book book1, Book book2)
         {
             if (book1 != null && book2 != null &&

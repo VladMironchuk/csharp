@@ -165,8 +165,7 @@ namespace BookClass
         }
 
         /// <summary>Compare isbns of books.</summary>
-        /// <param name="book">Instance of Book class</param>
-        /// <exception cref="ArgumentNullException">Throw when book's isbn is null.</exception>
+        /// <param name="obj">Object.</param>
         /// <returns>Equality of books' isbns</returns>
         public override bool Equals(Object obj)
         {
@@ -174,8 +173,8 @@ namespace BookClass
             return book != null && (base.Equals((Book)obj) && this.ISBN == book.ISBN);
         }
 
-        /// <summary>Compare isbns of books.</summary>
-        /// <returns>Equality of books' isbns</returns>
+        /// <summary>Get hash code.</summary>
+        /// <returns>Hash code.</returns>
         public override int GetHashCode()
         {
             return this.published
@@ -186,7 +185,8 @@ namespace BookClass
         }
 
         /// <summary>Compare isbns of books.</summary>
-        /// <returns>Equality of books' isbns</returns>
+        /// <param name="book">Book's instance.</param>
+        /// <returns>Equality of books' isbns.</returns>
         public bool Equals([AllowNull] Book book)
         {
             if (book == null)
@@ -194,13 +194,12 @@ namespace BookClass
                 return false;
             }
 
-            return ISBN == book.ISBN;
+            return this.ISBN == book.ISBN;
         }
 
         /// <summary>Compare titles of books.</summary>
         /// <param name="book">Instance of Book class.</param>
-        /// <exception cref="ArgumentNullException">Throw when book's isbn is null.</exception>
-        /// <returns>Equality of books' isbns</returns>
+        /// <returns>Int regarding the comparison.</returns>
         public int CompareTo([AllowNull] Book book)
         {
             if (book == null)
@@ -223,10 +222,8 @@ namespace BookClass
         }
 
         /// <summary>Compare titles of books.</summary>
-        /// <param name="book">Instance of Book class.</param>
-        /// <param name="obj"></param>
-        /// <exception cref="ArgumentNullException">Throw when book's isbn is null.</exception>
-        /// <returns>Equality of books' isbns</returns>
+        /// <param name="obj">object.</param>
+        /// <returns>Int regarding the comparison.</returns>
         public int CompareTo([AllowNull] object obj)
         {
             Book book = obj as Book;
