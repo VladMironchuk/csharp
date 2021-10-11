@@ -12,8 +12,8 @@ namespace BookClass.Tests
         [TestCase("Jon Skeet", "C# in Depth", "Manning Publications")]
         public void Book_CreateNewThreeParameters(string author, string title, string publisher)
         {
-            Book book = new Book(author, title, publisher); 
-            Assert.IsTrue(book.Author == author && book.Title == title && book.Publisher == publisher); 
+            Book book = new Book(author, title, publisher);
+            Assert.IsTrue(book.Author == author && book.Title == title && book.Publisher == publisher);
         }
 
         [TestCase("Jon Skeet", "C# in Depth", "Manning Publications", "978-0-901-69066-1")]
@@ -22,34 +22,36 @@ namespace BookClass.Tests
         public void Book_CreateNewFourParameters(string author, string title, string publisher, string isbn)
         {
             Book book = new Book(author, title, publisher, isbn);
-            Assert.IsTrue(book.Author == author && book.Title == title && book.Publisher == publisher && book.ISBN == isbn);
+            Assert.IsTrue(book.Author == author && book.Title == title && book.Publisher == publisher &&
+                          book.ISBN == isbn);
         }
 
         [TestCase(null, "C# in Depth", "Manning Publications")]
         [TestCase("Jon Skeet", null, "Manning Publications")]
         [TestCase("Jon Skeet", "C# in Depth", null)]
-        public void Book_CreateNewThreeParameters_ThrowArgumentNullException(string author, string title, string publisher)
+        public void Book_CreateNewThreeParameters_ThrowArgumentNullException(string author, string title,
+            string publisher)
         {
-            Assert.Throws<ArgumentNullException>(() => new Book(author, title, publisher), "author or title or publisher cannot be null");
+            Assert.Throws<ArgumentNullException>(() => new Book(author, title, publisher),
+                "author or title or publisher cannot be null");
         }
 
         [TestCase(null, "C# in Depth", "Manning Publications", "978-0-901-69066-1")]
         [TestCase("Jon Skeet", null, "Manning Publications", "978-0-901-69066-1")]
         [TestCase("Jon Skeet", "C# in Depth", null, "978-0-901-69066-1")]
         [TestCase("Jon Skeet", "C# in Depth", "Manning Publications", null)]
-        public void Book_CreateNewFourParameters_ThrowArgumentNullException(string author, string title, string publisher, string isbn)
+        public void Book_CreateNewFourParameters_ThrowArgumentNullException(string author, string title,
+            string publisher, string isbn)
         {
-            Assert.Throws<ArgumentNullException>(() => new Book(author, title, publisher, isbn), "author or title or publisher or ISBN cannot be null");
+            Assert.Throws<ArgumentNullException>(() => new Book(author, title, publisher, isbn),
+                "author or title or publisher or ISBN cannot be null");
         }
 
         [Test]
         public void Book_PagesTest()
         {
             int expected = 10;
-            Book book = new Book(string.Empty, string.Empty, string.Empty)
-            {
-                Pages = expected,
-            };
+            Book book = new Book(string.Empty, string.Empty, string.Empty) {Pages = expected,};
             Assert.AreEqual(expected, book.Pages);
         }
 
@@ -58,7 +60,8 @@ namespace BookClass.Tests
         public void Book_PagesTest_ArgumentOutOfRangeException(int pages)
         {
             Book book = new Book(string.Empty, string.Empty, string.Empty);
-            Assert.Throws<ArgumentOutOfRangeException>(() => book.Pages = pages, "Count of pages should be greater than zero.");
+            Assert.Throws<ArgumentOutOfRangeException>(() => book.Pages = pages,
+                "Count of pages should be greater than zero.");
         }
 
         [Test]
@@ -123,7 +126,7 @@ namespace BookClass.Tests
         [TestCase("", "C# in Depth", "Manning Publications", ExpectedResult = "C# in Depth by ")]
         public string Book_ToString(string author, string title, string publisher)
             => new Book(author, title, publisher).ToString();
-        
+
         //My Tests
         [Test]
         public void Book_Publish_Test()
@@ -143,6 +146,43 @@ namespace BookClass.Tests
         {
             Book book = new Book("Author", "Title", "Publisher");
             Assert.AreEqual(book.GetPublicationDate(), "NYP");
+        }
+
+        [TestCase("Jon Skeet", "C# in Depth", "Manning Publications", true, ExpectedResult = 441)]
+        [TestCase("Jon Skeet", "C# in Depth", "Manning Publications", false, ExpectedResult = 83)]
+        [TestCase("Jon Skeet", "", "Manning Publications", true, ExpectedResult = 210)]
+        [TestCase("", "C# in Depth", "Manning Publications", false, ExpectedResult = 164)]
+        public int Book_GetHashCode(string author, string title, string publisher, bool published)
+        {
+            Book book = new Book(author, title, publisher);
+            if (published)
+            {
+                book.Publish(DateTime.Now);
+            }
+
+            return book.GetHashCode();
+        }
+
+        [TestCase("978-7-460-37289-2", "978-7-460-37289-2", ExpectedResult = true)]
+        [TestCase("512-4-676-89127-0", "978-7-460-37289-2", ExpectedResult = false)]
+        public bool Book_Equals(string isbn1, string isbn2) =>
+            new Book(string.Empty, string.Empty, string.Empty, isbn1).Equals(new Book(string.Empty, string.Empty,
+                string.Empty, isbn2));
+
+        [TestCase("C# in Depth", "C# in Depth", ExpectedResult = 0)]
+        [TestCase("C# in Depth", "C++ in Depth", ExpectedResult = 1)]
+        [TestCase("C# in Depth", "C in Depth", ExpectedResult = -1)]
+        public int Book_CompareTo_Title(string title1, string title2) =>
+            new Book(string.Empty, title1, string.Empty)
+                .CompareTo(new Book(string.Empty, title2, string.Empty));
+
+        [TestCase(ExpectedResult = 0)]
+        public int Book_Comparison_Test()
+        {
+            Book book1 = new Book("Jon Skeet", "C# in Depth", "Manning Publications");
+            Book book2 = new Book("Jon Skeet", "C# in Depth", "Manning Publications");
+
+            return new BookComp().Compare(book1, book2);
         }
     }
 }

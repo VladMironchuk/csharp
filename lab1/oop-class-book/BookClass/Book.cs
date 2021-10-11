@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics.CodeAnalysis;
 using System.Globalization;
 using VerificationService;
 
@@ -7,13 +8,13 @@ namespace BookClass
     /// <summary>
     /// Represents the book as a type of publication.
     /// </summary>
-    public sealed class Book
+    public sealed class Book : IEquatable<Book>, IComparable<Book>
     {
         /// <summary>
         /// Gets author of the book.
         /// </summary>
         public readonly string Author;
-        
+
         /// <summary>
         /// Gets title of the book.
         /// </summary>
@@ -28,13 +29,13 @@ namespace BookClass
         /// Gets International Standard Book Number.
         /// </summary>
         public readonly string ISBN;
-        
+
         private bool published;
 
         private DateTime datePublished;
-        
+
         private int totalPages;
-        
+
         /// <summary>
         /// Gets or sets total pages in the book.
         /// </summary>
@@ -45,7 +46,7 @@ namespace BookClass
             {
                 return this.totalPages;
             }
-            
+
             set
             {
                 if (value <= 0)
@@ -56,7 +57,7 @@ namespace BookClass
                 this.totalPages = value;
             }
         }
-        
+
         /// <summary>
         /// Gets price.
         /// </summary>
@@ -66,7 +67,7 @@ namespace BookClass
         /// Gets currency.
         /// </summary>
         public string Currency { get; private set; }
-        
+
         /// <summary>
         /// Initializes a new instance of the <see cref="Book"/> class.
         /// </summary>
@@ -130,7 +131,9 @@ namespace BookClass
         /// <returns>The string "NYP" if book not published, and the value of the datePublished if it is published.</returns>
         public string GetPublicationDate()
         {
-            return this.published ? this.datePublished.ToString("MM/dd/yyyy", CultureInfo.CreateSpecificCulture("en-US")) : "NYP";
+            return this.published
+                ? this.datePublished.ToString("MM/dd/yyyy", CultureInfo.CreateSpecificCulture("en-US"))
+                : "NYP";
         }
 
         /// <summary>
@@ -159,6 +162,91 @@ namespace BookClass
 
             this.Currency = currency;
             this.Price = price;
+        }
+
+        /// <summary>Compare isbns of books.</summary>
+        /// <param name="book">Instance of Book class</param>
+        /// <exception cref="ArgumentNullException">Throw when book's isbn is null.</exception>
+        /// <returns>Equality of books' isbns</returns>
+        public override bool Equals(Object obj)
+        {
+            Book book = obj as Book;
+            return book != null && (base.Equals((Book)obj) && this.ISBN == book.ISBN);
+        }
+
+        /// <summary>Compare isbns of books.</summary>
+        /// <returns>Equality of books' isbns</returns>
+        public override int GetHashCode()
+        {
+            return this.published
+                ? (this.Publisher.Length + 1) * (this.Author.Length + this.Title.Length + 1)
+                : ((Math.Abs(this.Author.Length - this.Title.Length) + 1) *
+                   (this.Author.Length + this.Title.Length + 1)) +
+                  this.Publisher.Length;
+        }
+
+        /// <summary>Compare isbns of books.</summary>
+        /// <returns>Equality of books' isbns</returns>
+        public bool Equals([AllowNull] Book book)
+        {
+            if (book == null)
+            {
+                return false;
+            }
+
+            return ISBN == book.ISBN;
+        }
+
+        /// <summary>Compare titles of books.</summary>
+        /// <param name="book">Instance of Book class.</param>
+        /// <exception cref="ArgumentNullException">Throw when book's isbn is null.</exception>
+        /// <returns>Equality of books' isbns</returns>
+        public int CompareTo([AllowNull] Book book)
+        {
+            if (book == null)
+            {
+                return -1;
+            }
+
+            if (Title.Equals(book.Title))
+            {
+                return 0;
+            }
+            else if (Title.Length < book.Title.Length)
+            {
+                return 1;
+            }
+            else
+            {
+                return -1;
+            }
+        }
+
+        /// <summary>Compare titles of books.</summary>
+        /// <param name="book">Instance of Book class.</param>
+        /// <param name="obj"></param>
+        /// <exception cref="ArgumentNullException">Throw when book's isbn is null.</exception>
+        /// <returns>Equality of books' isbns</returns>
+        public int CompareTo([AllowNull] object obj)
+        {
+            Book book = obj as Book;
+
+            if (book == null)
+            {
+                return -1;
+            }
+
+            if (this.Title.Equals(book.Title))
+            {
+                return 0;
+            }
+
+            if (this.Title.Length > book.Title.Length)
+            {
+                return 1;
+            }
+
+            return -1;
         }
     }
 }
