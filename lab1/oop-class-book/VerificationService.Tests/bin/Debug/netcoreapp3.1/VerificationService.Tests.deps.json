@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v3.1": {
       "VerificationService.Tests/1.0.0": {
         "dependencies": {
+          "BookClass": "1.0.0",
           "Microsoft.NET.Test.Sdk": "16.11.0",
           "NUnit": "3.13.2",
           "VerificationService": "1.0.0"
@@ -16,6 +17,7 @@
           "VerificationService.Tests.dll": {}
         }
       },
+      "BuildTools.FxCop/1.0.1": {},
       "Microsoft.CodeCoverage/16.11.0": {
         "runtime": {
           "lib/netcoreapp1.0/Microsoft.VisualStudio.CodeCoverage.Shim.dll": {
@@ -647,6 +649,15 @@
           "System.Xml.ReaderWriter": "4.0.11"
         }
       },
+      "BookClass/1.0.0": {
+        "dependencies": {
+          "BuildTools.FxCop": "1.0.1",
+          "VerificationService": "1.0.0"
+        },
+        "runtime": {
+          "BookClass.dll": {}
+        }
+      },
       "VerificationService/1.0.0": {
         "runtime": {
           "VerificationService.dll": {}
@@ -659,6 +670,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "BuildTools.FxCop/1.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Twlhrm23jXmYSlMf7C7154ZhmgQaqn2fdVgAQzf4vTitJkobpoaV1JgjFQXk3CPdCajZUzCA6oHWhZsXwqB8CQ==",
+      "path": "buildtools.fxcop/1.0.1",
+      "hashPath": "buildtools.fxcop.1.0.1.nupkg.sha512"
     },
     "Microsoft.CodeCoverage/16.11.0": {
       "type": "package",
@@ -967,6 +985,11 @@
       "sha512": "sha512-Mk2mKmPi0nWaoiYeotq1dgeNK1fqWh61+EK+w4Wu8SWuTYLzpUnschb59bJtGywaPq7SmTuPf44wrXRwbIrukg==",
       "path": "system.xml.xdocument/4.0.11",
       "hashPath": "system.xml.xdocument.4.0.11.nupkg.sha512"
+    },
+    "BookClass/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "VerificationService/1.0.0": {
       "type": "project",

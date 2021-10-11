@@ -11,3 +11,16 @@ D:\downloads\oop-class-book\oop-class-book\BookClass\obj\Debug\netcoreapp3.1\Boo
 D:\downloads\oop-class-book\oop-class-book\BookClass\obj\Debug\netcoreapp3.1\BookClass.csproj.CopyComplete
 D:\downloads\oop-class-book\oop-class-book\BookClass\obj\Debug\netcoreapp3.1\BookClass.dll
 D:\downloads\oop-class-book\oop-class-book\BookClass\obj\Debug\netcoreapp3.1\BookClass.pdb
+E:\info\c#\csharp\lab1\oop-class-book\BookClass\bin\Debug\netcoreapp3.1\BookClass.deps.json
+E:\info\c#\csharp\lab1\oop-class-book\BookClass\bin\Debug\netcoreapp3.1\BookClass.dll
+E:\info\c#\csharp\lab1\oop-class-book\BookClass\bin\Debug\netcoreapp3.1\BookClass.pdb
+E:\info\c#\csharp\lab1\oop-class-book\BookClass\bin\Debug\netcoreapp3.1\VerificationService.dll
+E:\info\c#\csharp\lab1\oop-class-book\BookClass\bin\Debug\netcoreapp3.1\VerificationService.pdb
+E:\info\c#\csharp\lab1\oop-class-book\BookClass\obj\Debug\netcoreapp3.1\BookClass.csproj.AssemblyReference.cache
+E:\info\c#\csharp\lab1\oop-class-book\BookClass\obj\Debug\netcoreapp3.1\BookClass.GeneratedMSBuildEditorConfig.editorconfig
+E:\info\c#\csharp\lab1\oop-class-book\BookClass\obj\Debug\netcoreapp3.1\BookClass.AssemblyInfoInputs.cache
+E:\info\c#\csharp\lab1\oop-class-book\BookClass\obj\Debug\netcoreapp3.1\BookClass.AssemblyInfo.cs
+E:\info\c#\csharp\lab1\oop-class-book\BookClass\obj\Debug\netcoreapp3.1\BookClass.csproj.CoreCompileInputs.cache
+E:\info\c#\csharp\lab1\oop-class-book\BookClass\obj\Debug\netcoreapp3.1\BookClass.csproj.CopyComplete
+E:\info\c#\csharp\lab1\oop-class-book\BookClass\obj\Debug\netcoreapp3.1\BookClass.dll
+E:\info\c#\csharp\lab1\oop-class-book\BookClass\obj\Debug\netcoreapp3.1\BookClass.pdb

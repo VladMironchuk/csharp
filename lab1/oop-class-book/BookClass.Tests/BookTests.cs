@@ -124,7 +124,25 @@ namespace BookClass.Tests
         public string Book_ToString(string author, string title, string publisher)
             => new Book(author, title, publisher).ToString();
         
-        //my tests
-        
+        //My Tests
+        [Test]
+        public void Book_Publish_Test()
+        {
+            const int year = 2011;
+            const int month = 11;
+            const int day = 11;
+            DateTime date = new DateTime(year, month, day);
+
+            Book book = new Book("Author", "Title", "Publisher");
+            book.Publish(date);
+            Assert.AreEqual(book.GetPublicationDate(), $"{month}/{day}/{year}");
+        }
+
+        [Test]
+        public void Book_Publish_NotPublished_Test()
+        {
+            Book book = new Book("Author", "Title", "Publisher");
+            Assert.AreEqual(book.GetPublicationDate(), "NYP");
+        }
     }
 }

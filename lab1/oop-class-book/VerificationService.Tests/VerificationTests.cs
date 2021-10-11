@@ -10,25 +10,25 @@ namespace VerificationService.Tests
     [TestFixture]
     public class VerificationTests
     {
-        [TestCase("1-455-67657-7")]
+        [TestCase("0-198-53453-1")]
         [TestCase("2-057-61257-0")]
-        [TestCase("8-482-12697-3")]
+        [TestCase("3-598-21500-2")]
         public void IsbnVerifier_isValid_isbn10(string isbn10)
         {
             Assert.IsTrue(IsbnVerifier.IsValid(isbn10));
         }
         
-        [TestCase("512-4-676-89127-0")]
-        [TestCase("581-5-123-75907-5")]
-        [TestCase("913-1-402-12456-8")]
+        [TestCase("978-7-460-37289-2")]
+        [TestCase("978-5-223-43435-1")]
+        [TestCase("978-7-460-37289-2")]
         public void IsbnVerifier_isValid_isbn13(string isbn13)
         {
             Assert.IsTrue(IsbnVerifier.IsValid(isbn13));
         }
         
-        [TestCase("512-4-676-89127")]
+        [TestCase("5-654-67656-8")]
         [TestCase("581-5-123-757-5")]
-        [TestCase("913-12-12456-8")]
+        [TestCase("9-126-12456-8")]
         [TestCase("913")]
         [TestCase("a-34v-abcab-1")]
         [TestCase("a35-3-e45-45678-1")]
@@ -51,27 +51,6 @@ namespace VerificationService.Tests
         public void IsoCurrencyValidator_ArgumentException(string currency)
         {
             Assert.Throws<ArgumentException>(() => IsoCurrencyValidator.IsValid(currency), "not ISO format");
-        }
-        
-        //My Tests
-        [Test]
-        public void Book_Publish_Test()
-        {
-            const int year = 2011;
-            const int month = 11;
-            const int day = 11;
-            DateTime date = new DateTime(year, month, day);
-
-            Book book = new Book("Author", "Title", "Publisher");
-            book.Publish(date);
-            Assert.AreEqual(book.GetPublicationDate(), $"{month}/{day}/{year}");
-        }
-
-        [Test]
-        public void Book_Publish_NotPublished_Test()
-        {
-            Book book = new Book("Author", "Title", "Publisher");
-            Assert.AreEqual(book.GetPublicationDate(), "NYP");
         }
     }
 }

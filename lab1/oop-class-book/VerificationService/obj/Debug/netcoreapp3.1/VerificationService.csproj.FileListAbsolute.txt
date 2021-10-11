@@ -8,3 +8,13 @@ D:\downloads\oop-class-book\oop-class-book\VerificationService\obj\Debug\netcore
 D:\downloads\oop-class-book\oop-class-book\VerificationService\obj\Debug\netcoreapp3.1\VerificationService.csproj.CoreCompileInputs.cache
 D:\downloads\oop-class-book\oop-class-book\VerificationService\obj\Debug\netcoreapp3.1\VerificationService.dll
 D:\downloads\oop-class-book\oop-class-book\VerificationService\obj\Debug\netcoreapp3.1\VerificationService.pdb
+E:\info\c#\csharp\lab1\oop-class-book\VerificationService\bin\Debug\netcoreapp3.1\VerificationService.deps.json
+E:\info\c#\csharp\lab1\oop-class-book\VerificationService\bin\Debug\netcoreapp3.1\VerificationService.dll
+E:\info\c#\csharp\lab1\oop-class-book\VerificationService\bin\Debug\netcoreapp3.1\VerificationService.pdb
+E:\info\c#\csharp\lab1\oop-class-book\VerificationService\obj\Debug\netcoreapp3.1\VerificationService.csproj.AssemblyReference.cache
+E:\info\c#\csharp\lab1\oop-class-book\VerificationService\obj\Debug\netcoreapp3.1\VerificationService.GeneratedMSBuildEditorConfig.editorconfig
+E:\info\c#\csharp\lab1\oop-class-book\VerificationService\obj\Debug\netcoreapp3.1\VerificationService.AssemblyInfoInputs.cache
+E:\info\c#\csharp\lab1\oop-class-book\VerificationService\obj\Debug\netcoreapp3.1\VerificationService.AssemblyInfo.cs
+E:\info\c#\csharp\lab1\oop-class-book\VerificationService\obj\Debug\netcoreapp3.1\VerificationService.csproj.CoreCompileInputs.cache
+E:\info\c#\csharp\lab1\oop-class-book\VerificationService\obj\Debug\netcoreapp3.1\VerificationService.dll
+E:\info\c#\csharp\lab1\oop-class-book\VerificationService\obj\Debug\netcoreapp3.1\VerificationService.pdb
