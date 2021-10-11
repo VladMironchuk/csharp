@@ -1,0 +1,23 @@
+.col {
+    background-color: #64dd17 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.col:hover {
+    background-color: #558b2f;
+}
+
+.col:active {
+    background-color: #33691e;
+}
+
+.container {
+    width: 70%;
+}
+
+.row {
+    height: 3rem;
+}

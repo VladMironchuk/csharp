@@ -1,0 +1,14 @@
+.logo {
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 2rem;
+}
+
+.logo:after {
+    content: "";
+    display: block;
+    width: 70%;
+    height: 1px;
+    background-color: lightgrey;
+    margin: 1rem auto;
+}
