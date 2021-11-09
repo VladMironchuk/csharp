@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Globalization;
+using System.Linq;
 
 namespace VerificationService
 {
@@ -19,17 +20,9 @@ namespace VerificationService
         public static bool IsValid(string currency)
         {
             CultureInfo[] cultures = CultureInfo.GetCultures(CultureTypes.SpecificCultures);
-            foreach (CultureInfo ci in cultures)
+            if (cultures.Select(ci => new RegionInfo(ci.LCID)).Any(ri => ri.ISOCurrencySymbol == currency))
             {
-
-                RegionInfo ri = new RegionInfo(ci.LCID);
-
-                if (ri.ISOCurrencySymbol == currency)
-
-                {
-                    return true;
-                }
-
+                return true;
             }
             throw new ArgumentException();
         }

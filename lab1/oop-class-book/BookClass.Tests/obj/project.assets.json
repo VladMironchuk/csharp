@@ -5140,32 +5140,38 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\VLAD\\.nuget\\packages\\": {}
+    "C:\\Users\\user\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\info\\c#\\csharp\\lab1\\oop-class-book\\BookClass.Tests\\BookClass.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\user\\Desktop\\C#\\labs_cs\\oop-class-book\\BookClass.Tests\\BookClass.Tests.csproj",
       "projectName": "BookClass.Tests",
-      "projectPath": "E:\\info\\c#\\csharp\\lab1\\oop-class-book\\BookClass.Tests\\BookClass.Tests.csproj",
-      "packagesPath": "C:\\Users\\VLAD\\.nuget\\packages\\",
-      "outputPath": "E:\\info\\c#\\csharp\\lab1\\oop-class-book\\BookClass.Tests\\obj\\",
+      "projectPath": "C:\\Users\\user\\Desktop\\C#\\labs_cs\\oop-class-book\\BookClass.Tests\\BookClass.Tests.csproj",
+      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\user\\Desktop\\C#\\labs_cs\\oop-class-book\\BookClass.Tests\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\VLAD\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "E:\\info\\c#\\csharp\\lab1\\oop-class-book\\BookClass\\BookClass.csproj": {
-              "projectPath": "E:\\info\\c#\\csharp\\lab1\\oop-class-book\\BookClass\\BookClass.csproj"
+            "C:\\Users\\user\\Desktop\\C#\\labs_cs\\oop-class-book\\BookClass\\BookClass.csproj": {
+              "projectPath": "C:\\Users\\user\\Desktop\\C#\\labs_cs\\oop-class-book\\BookClass\\BookClass.csproj"
             }
           }
         }
@@ -5215,26 +5221,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[3.1.10, 3.1.10]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[3.1.0, 3.1.0]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[3.1.0, 3.1.0]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Users\\VLAD\\.dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
       }
     }
   }

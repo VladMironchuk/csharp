@@ -1,12 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cP9oUJWYFdbJyVqn9+h+wEiaGX9CUQDHX4od2YbggpeTshRVFAmyJqbxG5GMOt773BXg7tsjOKcaoWo70YcRhg==",
+  "dgSpecHash": "bjd6w0NG2allCYN+x/rsC0I7+4weitfhpF6GWIZ3UEHFIlaigLZxZpOKQabI/cdIyE3lv8l+RGoUhEo1GhAl/w==",
   "success": true,
-  "projectFilePath": "E:\\info\\c#\\csharp\\lab1\\oop-class-book\\VerificationService\\VerificationService.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\VLAD\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
-    "C:\\Users\\VLAD\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
-    "C:\\Users\\VLAD\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\user\\Desktop\\C#\\labs_cs\\oop-class-book\\VerificationService\\VerificationService.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

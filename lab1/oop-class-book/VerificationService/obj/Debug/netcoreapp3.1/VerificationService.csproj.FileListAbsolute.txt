@@ -8,13 +8,49 @@ D:\downloads\oop-class-book\oop-class-book\VerificationService\obj\Debug\netcore
 D:\downloads\oop-class-book\oop-class-book\VerificationService\obj\Debug\netcoreapp3.1\VerificationService.csproj.CoreCompileInputs.cache
 D:\downloads\oop-class-book\oop-class-book\VerificationService\obj\Debug\netcoreapp3.1\VerificationService.dll
 D:\downloads\oop-class-book\oop-class-book\VerificationService\obj\Debug\netcoreapp3.1\VerificationService.pdb
-E:\info\c#\csharp\lab1\oop-class-book\VerificationService\bin\Debug\netcoreapp3.1\VerificationService.deps.json
-E:\info\c#\csharp\lab1\oop-class-book\VerificationService\bin\Debug\netcoreapp3.1\VerificationService.dll
-E:\info\c#\csharp\lab1\oop-class-book\VerificationService\bin\Debug\netcoreapp3.1\VerificationService.pdb
-E:\info\c#\csharp\lab1\oop-class-book\VerificationService\obj\Debug\netcoreapp3.1\VerificationService.csproj.AssemblyReference.cache
-E:\info\c#\csharp\lab1\oop-class-book\VerificationService\obj\Debug\netcoreapp3.1\VerificationService.GeneratedMSBuildEditorConfig.editorconfig
-E:\info\c#\csharp\lab1\oop-class-book\VerificationService\obj\Debug\netcoreapp3.1\VerificationService.AssemblyInfoInputs.cache
-E:\info\c#\csharp\lab1\oop-class-book\VerificationService\obj\Debug\netcoreapp3.1\VerificationService.AssemblyInfo.cs
-E:\info\c#\csharp\lab1\oop-class-book\VerificationService\obj\Debug\netcoreapp3.1\VerificationService.csproj.CoreCompileInputs.cache
-E:\info\c#\csharp\lab1\oop-class-book\VerificationService\obj\Debug\netcoreapp3.1\VerificationService.dll
-E:\info\c#\csharp\lab1\oop-class-book\VerificationService\obj\Debug\netcoreapp3.1\VerificationService.pdb
+C:\Users\Vlad\Downloads\Telegram Desktop\oop-class-book2\oop-class-book\VerificationService\bin\Debug\netcoreapp3.1\VerificationService.deps.json
+C:\Users\Vlad\Downloads\Telegram Desktop\oop-class-book2\oop-class-book\VerificationService\bin\Debug\netcoreapp3.1\VerificationService.dll
+C:\Users\Vlad\Downloads\Telegram Desktop\oop-class-book2\oop-class-book\VerificationService\bin\Debug\netcoreapp3.1\VerificationService.pdb
+C:\Users\Vlad\Downloads\Telegram Desktop\oop-class-book2\oop-class-book\VerificationService\obj\Debug\netcoreapp3.1\VerificationService.csproj.AssemblyReference.cache
+C:\Users\Vlad\Downloads\Telegram Desktop\oop-class-book2\oop-class-book\VerificationService\obj\Debug\netcoreapp3.1\VerificationService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Vlad\Downloads\Telegram Desktop\oop-class-book2\oop-class-book\VerificationService\obj\Debug\netcoreapp3.1\VerificationService.AssemblyInfoInputs.cache
+C:\Users\Vlad\Downloads\Telegram Desktop\oop-class-book2\oop-class-book\VerificationService\obj\Debug\netcoreapp3.1\VerificationService.AssemblyInfo.cs
+C:\Users\Vlad\Downloads\Telegram Desktop\oop-class-book2\oop-class-book\VerificationService\obj\Debug\netcoreapp3.1\VerificationService.csproj.CoreCompileInputs.cache
+C:\Users\Vlad\Downloads\Telegram Desktop\oop-class-book2\oop-class-book\VerificationService\obj\Debug\netcoreapp3.1\VerificationService.dll
+C:\Users\Vlad\Downloads\Telegram Desktop\oop-class-book2\oop-class-book\VerificationService\obj\Debug\netcoreapp3.1\VerificationService.pdb
+C:\Users\user\Desktop\oop-class-book\VerificationService\bin\Debug\netcoreapp3.1\VerificationService.deps.json
+C:\Users\user\Desktop\oop-class-book\VerificationService\bin\Debug\netcoreapp3.1\VerificationService.dll
+C:\Users\user\Desktop\oop-class-book\VerificationService\bin\Debug\netcoreapp3.1\VerificationService.pdb
+C:\Users\user\Desktop\oop-class-book\VerificationService\obj\Debug\netcoreapp3.1\VerificationService.csprojAssemblyReference.cache
+C:\Users\user\Desktop\oop-class-book\VerificationService\obj\Debug\netcoreapp3.1\VerificationService.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\oop-class-book\VerificationService\obj\Debug\netcoreapp3.1\VerificationService.AssemblyInfo.cs
+C:\Users\user\Desktop\oop-class-book\VerificationService\obj\Debug\netcoreapp3.1\VerificationService.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\oop-class-book\VerificationService\obj\Debug\netcoreapp3.1\VerificationService.dll
+C:\Users\user\Desktop\oop-class-book\VerificationService\obj\Debug\netcoreapp3.1\VerificationService.pdb
+D:\MMF\прога\C#\oop-class-book\VerificationService\bin\Debug\netcoreapp3.1\VerificationService.deps.json
+D:\MMF\прога\C#\oop-class-book\VerificationService\bin\Debug\netcoreapp3.1\VerificationService.dll
+D:\MMF\прога\C#\oop-class-book\VerificationService\bin\Debug\netcoreapp3.1\VerificationService.pdb
+D:\MMF\прога\C#\oop-class-book\VerificationService\obj\Debug\netcoreapp3.1\VerificationService.csprojAssemblyReference.cache
+D:\MMF\прога\C#\oop-class-book\VerificationService\obj\Debug\netcoreapp3.1\VerificationService.AssemblyInfoInputs.cache
+D:\MMF\прога\C#\oop-class-book\VerificationService\obj\Debug\netcoreapp3.1\VerificationService.AssemblyInfo.cs
+D:\MMF\прога\C#\oop-class-book\VerificationService\obj\Debug\netcoreapp3.1\VerificationService.csproj.CoreCompileInputs.cache
+D:\MMF\прога\C#\oop-class-book\VerificationService\obj\Debug\netcoreapp3.1\VerificationService.dll
+D:\MMF\прога\C#\oop-class-book\VerificationService\obj\Debug\netcoreapp3.1\VerificationService.pdb
+C:\Users\user\Desktop\C#\labs_cs\lab_1\oop-class-book\VerificationService\bin\Debug\netcoreapp3.1\VerificationService.deps.json
+C:\Users\user\Desktop\C#\labs_cs\lab_1\oop-class-book\VerificationService\bin\Debug\netcoreapp3.1\VerificationService.dll
+C:\Users\user\Desktop\C#\labs_cs\lab_1\oop-class-book\VerificationService\bin\Debug\netcoreapp3.1\VerificationService.pdb
+C:\Users\user\Desktop\C#\labs_cs\lab_1\oop-class-book\VerificationService\obj\Debug\netcoreapp3.1\VerificationService.csprojAssemblyReference.cache
+C:\Users\user\Desktop\C#\labs_cs\lab_1\oop-class-book\VerificationService\obj\Debug\netcoreapp3.1\VerificationService.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\C#\labs_cs\lab_1\oop-class-book\VerificationService\obj\Debug\netcoreapp3.1\VerificationService.AssemblyInfo.cs
+C:\Users\user\Desktop\C#\labs_cs\lab_1\oop-class-book\VerificationService\obj\Debug\netcoreapp3.1\VerificationService.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\C#\labs_cs\lab_1\oop-class-book\VerificationService\obj\Debug\netcoreapp3.1\VerificationService.dll
+C:\Users\user\Desktop\C#\labs_cs\lab_1\oop-class-book\VerificationService\obj\Debug\netcoreapp3.1\VerificationService.pdb
+C:\Users\user\Desktop\C#\labs_cs\oop-class-book\VerificationService\bin\Debug\netcoreapp3.1\VerificationService.deps.json
+C:\Users\user\Desktop\C#\labs_cs\oop-class-book\VerificationService\bin\Debug\netcoreapp3.1\VerificationService.dll
+C:\Users\user\Desktop\C#\labs_cs\oop-class-book\VerificationService\bin\Debug\netcoreapp3.1\VerificationService.pdb
+C:\Users\user\Desktop\C#\labs_cs\oop-class-book\VerificationService\obj\Debug\netcoreapp3.1\VerificationService.csprojAssemblyReference.cache
+C:\Users\user\Desktop\C#\labs_cs\oop-class-book\VerificationService\obj\Debug\netcoreapp3.1\VerificationService.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\C#\labs_cs\oop-class-book\VerificationService\obj\Debug\netcoreapp3.1\VerificationService.AssemblyInfo.cs
+C:\Users\user\Desktop\C#\labs_cs\oop-class-book\VerificationService\obj\Debug\netcoreapp3.1\VerificationService.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\C#\labs_cs\oop-class-book\VerificationService\obj\Debug\netcoreapp3.1\VerificationService.dll
+C:\Users\user\Desktop\C#\labs_cs\oop-class-book\VerificationService\obj\Debug\netcoreapp3.1\VerificationService.pdb

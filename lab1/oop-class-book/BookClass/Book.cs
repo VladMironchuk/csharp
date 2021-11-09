@@ -8,13 +8,13 @@ namespace BookClass
     /// <summary>
     /// Represents the book as a type of publication.
     /// </summary>
-    public sealed class Book : IEquatable<Book>, IComparable<Book>
+    public sealed class Book : IEquatable<Book>, IComparable<Book>, IComparable
     {
         /// <summary>
         /// Gets author of the book.
         /// </summary>
         public readonly string Author;
-
+        
         /// <summary>
         /// Gets title of the book.
         /// </summary>
@@ -29,13 +29,13 @@ namespace BookClass
         /// Gets International Standard Book Number.
         /// </summary>
         public readonly string ISBN;
+        
+        private bool _published;
 
-        private bool published;
-
-        private DateTime datePublished;
-
+        private DateTime _datePublished;
+        
         private int totalPages;
-
+        
         /// <summary>
         /// Gets or sets total pages in the book.
         /// </summary>
@@ -46,7 +46,7 @@ namespace BookClass
             {
                 return this.totalPages;
             }
-
+            
             set
             {
                 if (value <= 0)
@@ -57,17 +57,17 @@ namespace BookClass
                 this.totalPages = value;
             }
         }
-
+        
         /// <summary>
         /// Gets price.
         /// </summary>
         public decimal Price { get; private set; }
-
+        
         /// <summary>
         /// Gets currency.
         /// </summary>
         public string Currency { get; private set; }
-
+        
         /// <summary>
         /// Initializes a new instance of the <see cref="Book"/> class.
         /// </summary>
@@ -112,8 +112,8 @@ namespace BookClass
         /// <param name="dateTime">Date of publish.</param>
         public void Publish(DateTime dateTime)
         {
-            this.published = true;
-            this.datePublished = dateTime;
+            this._published = true;
+            this._datePublished = dateTime;
         }
 
         /// <summary>
@@ -131,9 +131,7 @@ namespace BookClass
         /// <returns>The string "NYP" if book not published, and the value of the datePublished if it is published.</returns>
         public string GetPublicationDate()
         {
-            return this.published
-                ? this.datePublished.ToString("MM/dd/yyyy", CultureInfo.CreateSpecificCulture("en-US"))
-                : "NYP";
+            return this._published ? this._datePublished.ToString("MM/dd/yyyy", CultureInfo.CreateSpecificCulture("en-US")) : "NYP";
         }
 
         /// <summary>
@@ -164,54 +162,38 @@ namespace BookClass
             this.Price = price;
         }
 
-        /// <summary>Compare isbns of books.</summary>
-        /// <param name="obj">Object.</param>
-        /// <returns>Equality of books' isbns</returns>
-        public override bool Equals(Object obj)
+        /// <inheritdoc/>
+        public override bool Equals([AllowNull] Object obj)
         {
             Book book = obj as Book;
-            return book != null && (base.Equals((Book)obj) && this.ISBN == book.ISBN);
+
+            return book == null ? false : base.Equals((Book)obj) && this.ISBN == book.ISBN;
         }
 
-        /// <summary>Get hash code.</summary>
-        /// <returns>Hash code.</returns>
+        /// <inheritdoc/>
         public override int GetHashCode()
         {
-            return this.published
-                ? (this.Publisher.Length + 1) * (this.Author.Length + this.Title.Length + 1)
-                : ((Math.Abs(this.Author.Length - this.Title.Length) + 1) *
-                   (this.Author.Length + this.Title.Length + 1)) +
-                  this.Publisher.Length;
+            return _published ? (Publisher.Length + 1) * (Author.Length + Title.Length + 1) : (Math.Abs(Author.Length - Title.Length) + 1) * (Author.Length + Title.Length + 1) + Publisher.Length;
         }
 
-        /// <summary>Compare isbns of books.</summary>
-        /// <param name="book">Book's instance.</param>
-        /// <returns>Equality of books' isbns.</returns>
-        public bool Equals([AllowNull] Book book)
+        /// <inheritdoc/>
+        public bool Equals([AllowNull] Book otherBook)
         {
-            if (book == null)
-            {
-                return false;
-            }
+            if (otherBook == null) return false;
 
-            return this.ISBN == book.ISBN;
+            return Author.Equals(otherBook.Author) && Title.Equals(otherBook.Title) && Publisher.Equals(otherBook.Publisher) && ISBN == otherBook.ISBN;
         }
 
-        /// <summary>Compare titles of books.</summary>
-        /// <param name="book">Instance of Book class.</param>
-        /// <returns>Int regarding the comparison.</returns>
-        public int CompareTo([AllowNull] Book book)
+        /// <inheritdoc/>
+        public int CompareTo([AllowNull] Book otherBook)
         {
-            if (book == null)
-            {
-                return -1;
-            }
+            if (otherBook == null) return -1;
 
-            if (Title.Equals(book.Title))
+            if (Title.Equals(otherBook.Title))
             {
                 return 0;
             }
-            else if (Title.Length < book.Title.Length)
+            else if (Title.Length < otherBook.Title.Length)
             {
                 return 1;
             }
@@ -221,29 +203,25 @@ namespace BookClass
             }
         }
 
-        /// <summary>Compare titles of books.</summary>
-        /// <param name="obj">object.</param>
-        /// <returns>Int regarding the comparison.</returns>
+        /// <inheritdoc/>
         public int CompareTo([AllowNull] object obj)
         {
             Book book = obj as Book;
 
-            if (book == null)
-            {
-                return -1;
-            }
+            if (book == null) return -1;
 
-            if (this.Title.Equals(book.Title))
+            if (Title.Equals(book.Title))
             {
                 return 0;
             }
-
-            if (this.Title.Length > book.Title.Length)
+            else if (Title.Length > book.Title.Length)
             {
                 return 1;
             }
-
-            return -1;
+            else
+            {
+                return -1;
+            }
         }
     }
 }

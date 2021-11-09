@@ -1,19 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "Emyd1qrLto9gA9vkoGZqdnkiURaQaDhn6dupwomPdv/zH1u9RfGV9JNE4rvebsne+RUlBVMgEJrzQa+jRg/b5w==",
+  "dgSpecHash": "bFrHbTOrJAU2cOIu/FNi/NdIsIdRCSSlaiGn5f2Qy/TsMJOFGddoS9q7TS1CH0Im56eJgsgr7mt0Mu0NRrqGcg==",
   "success": true,
-  "projectFilePath": "E:\\info\\c#\\csharp\\lab1\\oop-class-book\\BookClass\\BookClass.csproj",
+  "projectFilePath": "C:\\Users\\user\\Desktop\\C#\\labs_cs\\oop-class-book\\BookClass\\BookClass.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\VLAD\\.nuget\\packages\\buildtools.fxcop\\1.0.1\\buildtools.fxcop.1.0.1.nupkg.sha512",
-    "C:\\Users\\VLAD\\.nuget\\packages\\microsoft.codeanalysis.fxcopanalyzers\\3.0.0\\microsoft.codeanalysis.fxcopanalyzers.3.0.0.nupkg.sha512",
-    "C:\\Users\\VLAD\\.nuget\\packages\\microsoft.codeanalysis.versioncheckanalyzer\\3.0.0\\microsoft.codeanalysis.versioncheckanalyzer.3.0.0.nupkg.sha512",
-    "C:\\Users\\VLAD\\.nuget\\packages\\microsoft.codequality.analyzers\\3.0.0\\microsoft.codequality.analyzers.3.0.0.nupkg.sha512",
-    "C:\\Users\\VLAD\\.nuget\\packages\\microsoft.netcore.analyzers\\3.0.0\\microsoft.netcore.analyzers.3.0.0.nupkg.sha512",
-    "C:\\Users\\VLAD\\.nuget\\packages\\microsoft.netframework.analyzers\\3.0.0\\microsoft.netframework.analyzers.3.0.0.nupkg.sha512",
-    "C:\\Users\\VLAD\\.nuget\\packages\\stylecop.analyzers\\1.1.118\\stylecop.analyzers.1.1.118.nupkg.sha512",
-    "C:\\Users\\VLAD\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
-    "C:\\Users\\VLAD\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
-    "C:\\Users\\VLAD\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512"
+    "C:\\Users\\user\\.nuget\\packages\\buildtools.fxcop\\1.0.1\\buildtools.fxcop.1.0.1.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.codeanalysis.fxcopanalyzers\\3.0.0\\microsoft.codeanalysis.fxcopanalyzers.3.0.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.codeanalysis.versioncheckanalyzer\\3.0.0\\microsoft.codeanalysis.versioncheckanalyzer.3.0.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.codequality.analyzers\\3.0.0\\microsoft.codequality.analyzers.3.0.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.netcore.analyzers\\3.0.0\\microsoft.netcore.analyzers.3.0.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.netframework.analyzers\\3.0.0\\microsoft.netframework.analyzers.3.0.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\stylecop.analyzers\\1.1.118\\stylecop.analyzers.1.1.118.nupkg.sha512"
   ],
   "logs": []
 }

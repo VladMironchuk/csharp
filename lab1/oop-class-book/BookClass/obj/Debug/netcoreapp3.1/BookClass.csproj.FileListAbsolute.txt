@@ -11,16 +11,64 @@ D:\downloads\oop-class-book\oop-class-book\BookClass\obj\Debug\netcoreapp3.1\Boo
 D:\downloads\oop-class-book\oop-class-book\BookClass\obj\Debug\netcoreapp3.1\BookClass.csproj.CopyComplete
 D:\downloads\oop-class-book\oop-class-book\BookClass\obj\Debug\netcoreapp3.1\BookClass.dll
 D:\downloads\oop-class-book\oop-class-book\BookClass\obj\Debug\netcoreapp3.1\BookClass.pdb
-E:\info\c#\csharp\lab1\oop-class-book\BookClass\bin\Debug\netcoreapp3.1\BookClass.deps.json
-E:\info\c#\csharp\lab1\oop-class-book\BookClass\bin\Debug\netcoreapp3.1\BookClass.dll
-E:\info\c#\csharp\lab1\oop-class-book\BookClass\bin\Debug\netcoreapp3.1\BookClass.pdb
-E:\info\c#\csharp\lab1\oop-class-book\BookClass\bin\Debug\netcoreapp3.1\VerificationService.dll
-E:\info\c#\csharp\lab1\oop-class-book\BookClass\bin\Debug\netcoreapp3.1\VerificationService.pdb
-E:\info\c#\csharp\lab1\oop-class-book\BookClass\obj\Debug\netcoreapp3.1\BookClass.csproj.AssemblyReference.cache
-E:\info\c#\csharp\lab1\oop-class-book\BookClass\obj\Debug\netcoreapp3.1\BookClass.GeneratedMSBuildEditorConfig.editorconfig
-E:\info\c#\csharp\lab1\oop-class-book\BookClass\obj\Debug\netcoreapp3.1\BookClass.AssemblyInfoInputs.cache
-E:\info\c#\csharp\lab1\oop-class-book\BookClass\obj\Debug\netcoreapp3.1\BookClass.AssemblyInfo.cs
-E:\info\c#\csharp\lab1\oop-class-book\BookClass\obj\Debug\netcoreapp3.1\BookClass.csproj.CoreCompileInputs.cache
-E:\info\c#\csharp\lab1\oop-class-book\BookClass\obj\Debug\netcoreapp3.1\BookClass.csproj.CopyComplete
-E:\info\c#\csharp\lab1\oop-class-book\BookClass\obj\Debug\netcoreapp3.1\BookClass.dll
-E:\info\c#\csharp\lab1\oop-class-book\BookClass\obj\Debug\netcoreapp3.1\BookClass.pdb
+C:\Users\Vlad\Downloads\Telegram Desktop\oop-class-book2\oop-class-book\BookClass\bin\Debug\netcoreapp3.1\BookClass.deps.json
+C:\Users\Vlad\Downloads\Telegram Desktop\oop-class-book2\oop-class-book\BookClass\bin\Debug\netcoreapp3.1\BookClass.dll
+C:\Users\Vlad\Downloads\Telegram Desktop\oop-class-book2\oop-class-book\BookClass\bin\Debug\netcoreapp3.1\BookClass.pdb
+C:\Users\Vlad\Downloads\Telegram Desktop\oop-class-book2\oop-class-book\BookClass\bin\Debug\netcoreapp3.1\VerificationService.dll
+C:\Users\Vlad\Downloads\Telegram Desktop\oop-class-book2\oop-class-book\BookClass\bin\Debug\netcoreapp3.1\VerificationService.pdb
+C:\Users\Vlad\Downloads\Telegram Desktop\oop-class-book2\oop-class-book\BookClass\obj\Debug\netcoreapp3.1\BookClass.csproj.AssemblyReference.cache
+C:\Users\Vlad\Downloads\Telegram Desktop\oop-class-book2\oop-class-book\BookClass\obj\Debug\netcoreapp3.1\BookClass.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Vlad\Downloads\Telegram Desktop\oop-class-book2\oop-class-book\BookClass\obj\Debug\netcoreapp3.1\BookClass.AssemblyInfoInputs.cache
+C:\Users\Vlad\Downloads\Telegram Desktop\oop-class-book2\oop-class-book\BookClass\obj\Debug\netcoreapp3.1\BookClass.AssemblyInfo.cs
+C:\Users\Vlad\Downloads\Telegram Desktop\oop-class-book2\oop-class-book\BookClass\obj\Debug\netcoreapp3.1\BookClass.csproj.CoreCompileInputs.cache
+C:\Users\Vlad\Downloads\Telegram Desktop\oop-class-book2\oop-class-book\BookClass\obj\Debug\netcoreapp3.1\BookClass.csproj.CopyComplete
+C:\Users\Vlad\Downloads\Telegram Desktop\oop-class-book2\oop-class-book\BookClass\obj\Debug\netcoreapp3.1\BookClass.dll
+C:\Users\Vlad\Downloads\Telegram Desktop\oop-class-book2\oop-class-book\BookClass\obj\Debug\netcoreapp3.1\BookClass.pdb
+C:\Users\user\Desktop\oop-class-book\BookClass\bin\Debug\netcoreapp3.1\BookClass.deps.json
+C:\Users\user\Desktop\oop-class-book\BookClass\bin\Debug\netcoreapp3.1\BookClass.dll
+C:\Users\user\Desktop\oop-class-book\BookClass\bin\Debug\netcoreapp3.1\BookClass.pdb
+C:\Users\user\Desktop\oop-class-book\BookClass\bin\Debug\netcoreapp3.1\VerificationService.dll
+C:\Users\user\Desktop\oop-class-book\BookClass\bin\Debug\netcoreapp3.1\VerificationService.pdb
+C:\Users\user\Desktop\oop-class-book\BookClass\obj\Debug\netcoreapp3.1\BookClass.csprojAssemblyReference.cache
+C:\Users\user\Desktop\oop-class-book\BookClass\obj\Debug\netcoreapp3.1\BookClass.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\oop-class-book\BookClass\obj\Debug\netcoreapp3.1\BookClass.AssemblyInfo.cs
+C:\Users\user\Desktop\oop-class-book\BookClass\obj\Debug\netcoreapp3.1\BookClass.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\oop-class-book\BookClass\obj\Debug\netcoreapp3.1\BookClass.csproj.CopyComplete
+C:\Users\user\Desktop\oop-class-book\BookClass\obj\Debug\netcoreapp3.1\BookClass.dll
+C:\Users\user\Desktop\oop-class-book\BookClass\obj\Debug\netcoreapp3.1\BookClass.pdb
+D:\MMF\прога\C#\oop-class-book\BookClass\bin\Debug\netcoreapp3.1\BookClass.deps.json
+D:\MMF\прога\C#\oop-class-book\BookClass\bin\Debug\netcoreapp3.1\BookClass.dll
+D:\MMF\прога\C#\oop-class-book\BookClass\bin\Debug\netcoreapp3.1\BookClass.pdb
+D:\MMF\прога\C#\oop-class-book\BookClass\bin\Debug\netcoreapp3.1\VerificationService.dll
+D:\MMF\прога\C#\oop-class-book\BookClass\bin\Debug\netcoreapp3.1\VerificationService.pdb
+D:\MMF\прога\C#\oop-class-book\BookClass\obj\Debug\netcoreapp3.1\BookClass.csprojAssemblyReference.cache
+D:\MMF\прога\C#\oop-class-book\BookClass\obj\Debug\netcoreapp3.1\BookClass.AssemblyInfoInputs.cache
+D:\MMF\прога\C#\oop-class-book\BookClass\obj\Debug\netcoreapp3.1\BookClass.AssemblyInfo.cs
+D:\MMF\прога\C#\oop-class-book\BookClass\obj\Debug\netcoreapp3.1\BookClass.csproj.CoreCompileInputs.cache
+D:\MMF\прога\C#\oop-class-book\BookClass\obj\Debug\netcoreapp3.1\BookClass.csproj.CopyComplete
+D:\MMF\прога\C#\oop-class-book\BookClass\obj\Debug\netcoreapp3.1\BookClass.dll
+D:\MMF\прога\C#\oop-class-book\BookClass\obj\Debug\netcoreapp3.1\BookClass.pdb
+C:\Users\user\Desktop\C#\labs_cs\lab_1\oop-class-book\BookClass\bin\Debug\netcoreapp3.1\BookClass.deps.json
+C:\Users\user\Desktop\C#\labs_cs\lab_1\oop-class-book\BookClass\bin\Debug\netcoreapp3.1\BookClass.dll
+C:\Users\user\Desktop\C#\labs_cs\lab_1\oop-class-book\BookClass\bin\Debug\netcoreapp3.1\BookClass.pdb
+C:\Users\user\Desktop\C#\labs_cs\lab_1\oop-class-book\BookClass\bin\Debug\netcoreapp3.1\VerificationService.dll
+C:\Users\user\Desktop\C#\labs_cs\lab_1\oop-class-book\BookClass\bin\Debug\netcoreapp3.1\VerificationService.pdb
+C:\Users\user\Desktop\C#\labs_cs\lab_1\oop-class-book\BookClass\obj\Debug\netcoreapp3.1\BookClass.csprojAssemblyReference.cache
+C:\Users\user\Desktop\C#\labs_cs\lab_1\oop-class-book\BookClass\obj\Debug\netcoreapp3.1\BookClass.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\C#\labs_cs\lab_1\oop-class-book\BookClass\obj\Debug\netcoreapp3.1\BookClass.AssemblyInfo.cs
+C:\Users\user\Desktop\C#\labs_cs\lab_1\oop-class-book\BookClass\obj\Debug\netcoreapp3.1\BookClass.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\C#\labs_cs\lab_1\oop-class-book\BookClass\obj\Debug\netcoreapp3.1\BookClass.csproj.CopyComplete
+C:\Users\user\Desktop\C#\labs_cs\lab_1\oop-class-book\BookClass\obj\Debug\netcoreapp3.1\BookClass.dll
+C:\Users\user\Desktop\C#\labs_cs\lab_1\oop-class-book\BookClass\obj\Debug\netcoreapp3.1\BookClass.pdb
+C:\Users\user\Desktop\C#\labs_cs\oop-class-book\BookClass\bin\Debug\netcoreapp3.1\BookClass.deps.json
+C:\Users\user\Desktop\C#\labs_cs\oop-class-book\BookClass\bin\Debug\netcoreapp3.1\BookClass.dll
+C:\Users\user\Desktop\C#\labs_cs\oop-class-book\BookClass\bin\Debug\netcoreapp3.1\BookClass.pdb
+C:\Users\user\Desktop\C#\labs_cs\oop-class-book\BookClass\bin\Debug\netcoreapp3.1\VerificationService.dll
+C:\Users\user\Desktop\C#\labs_cs\oop-class-book\BookClass\bin\Debug\netcoreapp3.1\VerificationService.pdb
+C:\Users\user\Desktop\C#\labs_cs\oop-class-book\BookClass\obj\Debug\netcoreapp3.1\BookClass.csprojAssemblyReference.cache
+C:\Users\user\Desktop\C#\labs_cs\oop-class-book\BookClass\obj\Debug\netcoreapp3.1\BookClass.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\C#\labs_cs\oop-class-book\BookClass\obj\Debug\netcoreapp3.1\BookClass.AssemblyInfo.cs
+C:\Users\user\Desktop\C#\labs_cs\oop-class-book\BookClass\obj\Debug\netcoreapp3.1\BookClass.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\C#\labs_cs\oop-class-book\BookClass\obj\Debug\netcoreapp3.1\BookClass.csproj.CopyComplete
+C:\Users\user\Desktop\C#\labs_cs\oop-class-book\BookClass\obj\Debug\netcoreapp3.1\BookClass.dll
+C:\Users\user\Desktop\C#\labs_cs\oop-class-book\BookClass\obj\Debug\netcoreapp3.1\BookClass.pdb
