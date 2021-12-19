@@ -3,7 +3,7 @@ using Lab_CSharp.BookClass;
 
 namespace Lab_CSharp.BookListService
 {
-    public class BookStorage
+    public class FakeBookStorage : IBookStorage
     {
         private List<Book> books;
 
@@ -11,12 +11,12 @@ namespace Lab_CSharp.BookListService
         {
             return books.Count == 0;
         }
-        public BookStorage()
+        public FakeBookStorage()
         {
             books = new List<Book>();
         }
 
-        public BookStorage(List<Book> books)
+        public FakeBookStorage(List<Book> books)
         {
             this.books = books;
         }

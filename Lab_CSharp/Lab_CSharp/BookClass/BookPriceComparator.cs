@@ -3,7 +3,7 @@
 namespace Lab_CSharp.BookClass
 {
     /// <summary>Book Price Comparator</summary>
-    public class BookPriceComparator:IComparer<Book>
+    public class BookPriceComparator : IComparer<Book>
     {
         /// <summary>Compare two books by price</summary>
         /// <returns>int</returns>
@@ -13,7 +13,7 @@ namespace Lab_CSharp.BookClass
             {
                 return 0;
             }
-            
+
             if (firstBook == null)
             {
                 return -1;

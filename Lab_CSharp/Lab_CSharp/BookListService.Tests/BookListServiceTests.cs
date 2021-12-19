@@ -65,7 +65,7 @@ namespace Lab_CSharp.BookListService.Tests
             bookListService.Add(book4);
             bookListService.Add(book5);
 
-            List<Book> list = bookListService.FindByAuthor(author);
+            List<Book> list = bookListService.FindBy(book => book.Author.Equals(author));
 
             Assert.IsTrue(list.Contains(book2) && list.Contains(book5) && list.Count == 2);
         }
@@ -87,7 +87,7 @@ namespace Lab_CSharp.BookListService.Tests
             bookListService.Add(book4);
             bookListService.Add(book5);
 
-            List<Book> list = bookListService.FindByTitle(title);
+            List<Book> list = bookListService.FindBy(book => book.Title.Equals(title));
 
             Assert.IsTrue(list.Contains(book3) && list.Contains(book5) && list.Count == 2);
         }
@@ -109,7 +109,7 @@ namespace Lab_CSharp.BookListService.Tests
             bookListService.Add(book4);
             bookListService.Add(book5);
 
-            List<Book> list = bookListService.FindByPublisher(publisher);
+            List<Book> list = bookListService.FindBy(book => book.Publisher.Equals(publisher));
 
             Assert.IsTrue(list.Contains(book1) && list.Count == 1);
         }
@@ -127,7 +127,7 @@ namespace Lab_CSharp.BookListService.Tests
             bookListService.Add(book2);
             bookListService.Add(book3);
 
-            List<Book> list = bookListService.GetByComparator("author");
+            List<Book> list = bookListService.GetBy(new BookAuthorComparator());
 
             Assert.IsTrue(list[0] == book2 && list[1] == book3 && list[2] == book1);
         }
@@ -145,7 +145,7 @@ namespace Lab_CSharp.BookListService.Tests
             bookListService.Add(book2);
             bookListService.Add(book3);
 
-            List<Book> list = bookListService.GetByComparator("pages");
+            List<Book> list = bookListService.GetBy(new BookPagesComparator());
 
             Assert.IsTrue(list[0] == book2 && list[1] == book3 && list[2] == book1);
         }
@@ -167,7 +167,7 @@ namespace Lab_CSharp.BookListService.Tests
             bookListService.Add(book2);
             bookListService.Add(book3);
 
-            List<Book> list = bookListService.GetByComparator("price");
+            List<Book> list = bookListService.GetBy(new BookPriceComparator());
 
             Assert.IsTrue(list[0] == book2 && list[1] == book3 && list[2] == book1);
         }
@@ -180,7 +180,7 @@ namespace Lab_CSharp.BookListService.Tests
             Book book1 = new Book("A", string.Empty, string.Empty);
             Book book2 = new Book("B", string.Empty, string.Empty);
             Book book3 = new Book("C", string.Empty, string.Empty);
-            BookStorage bookStorage = new BookStorage(new List<Book>() {book1, book2, book3});
+            FakeBookStorage bookStorage = new FakeBookStorage(new List<Book>() {book1, book2, book3});
 
             bookListService.Load(bookStorage);
             var bookList = bookListService.GetBookList();
@@ -201,7 +201,7 @@ namespace Lab_CSharp.BookListService.Tests
             bookListService.Add(book2);
             bookListService.Add(book3);
 
-            BookStorage bookStorage = new BookStorage();
+            FakeBookStorage bookStorage = new FakeBookStorage();
 
             bookListService.Save(bookStorage);
             

@@ -8,7 +8,7 @@ namespace Lab_CSharp.BookClass
     /// <summary>
     /// Represents the book as a type of publication.
     /// </summary>
-    public sealed class Book: IEquatable<Book>, IComparable<Book>
+    public sealed class Book: IEquatable<Book>, IComparable<Book>, IComparable
     {
         /// <summary>
         /// Gets author of the book.

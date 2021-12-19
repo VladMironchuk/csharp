@@ -40,8 +40,9 @@ namespace Lab_CSharp.BookListService
             if (BookList.Count == 0)
             {
                 return;
-            } 
-            else if (BookList.ContainsValue(book))
+            }
+            
+            if (BookList.ContainsValue(book))
             {
                 int bookToRemoveKey = -1;
                 
@@ -57,41 +58,75 @@ namespace Lab_CSharp.BookListService
             
             throw new Exception("Failed to remove the book. The book is out of storage.");
         }
-        public List<Book> FindByAuthor(string author)
+        
+        public List<Book> FindBy(Predicate<Book> predicate)
         {
-            return (from pair in BookList where pair.Value.Author.Equals(author) select pair.Value).ToList();
+            return BookList.Values.ToList().FindAll(predicate);
         }
 
-        public List<Book> FindByTitle(string title)
+        public List<Book> GetBy(IComparer<Book> comparer)
         {
-            return (from pair in BookList where pair.Value.Title.Equals(title) select pair.Value).ToList();
-        }
-
-        public List<Book> FindByPublisher(string publisher)
-        {
-            return (from pair in BookList where pair.Value.Publisher.Equals(publisher) select pair.Value).ToList();
-        }
-
-        public List<Book> GetByComparator(string comparator)
-        {
-            List<Book> books = BookList.Select(pair => pair.Value).ToList();
-            
-            switch (comparator)
-            {
-                case "author":
-                    books.Sort(new BookAuthorComparator().Compare);
-                    break;
-                case "pages":
-                    books.Sort(new BookPagesComparator().Compare);
-                    break;
-                case "price":
-                    books.Sort(new BookPriceComparator().Compare);
-                    break;
-            }
+            List<Book> books = BookList.Values.ToList();
+            books.Sort(comparer);
             return books;
         }
 
-        public void Load(BookStorage bookStorage)
+        // public List<Book> FindByAuthor(string author)
+        // {
+        //     return (from pair in BookList where pair.Value.Author.Equals(author) select pair.Value).ToList();
+        // }
+        //
+        // public List<Book> FindByTitle(string title)
+        // {
+        //     return (from pair in BookList where pair.Value.Title.Equals(title) select pair.Value).ToList();
+        // }
+        //
+        // public List<Book> FindByPublisher(string publisher)
+        // {
+        //     return (from pair in BookList where pair.Value.Publisher.Equals(publisher) select pair.Value).ToList();
+        // }
+        //
+        // public List<Book> GetByAuthor()
+        // {
+        //     List<Book> books = new List<Book>();
+        //
+        //     foreach (var pair in BookList)
+        //     {
+        //         books.Add(pair.Value);   
+        //     }
+        //
+        //     books.Sort(new BookAuthorComparator());
+        //     return books;
+        // }
+        //
+        // public List<Book> GetByPages()
+        // {
+        //     List<Book> books = new List<Book>();
+        //
+        //     foreach (var pair in BookList)
+        //     {
+        //         books.Add(pair.Value);
+        //     }
+        //
+        //     books.Sort(new BookPagesComparator());
+        //     return books;
+        // }
+        //
+        // public List<Book> GetByPrice()
+        // {
+        //     List<Book> books = new List<Book>();
+        //
+        //     foreach (var pair in BookList)
+        //     {
+        //         books.Add(pair.Value);
+        //     }
+        //
+        //     books.Sort(new BookPriceComparator());
+        //     return books;
+        // }
+
+
+        public void Load(FakeBookStorage bookStorage)
         {
             if (BookList.Count == 0)
             {
@@ -113,7 +148,7 @@ namespace Lab_CSharp.BookListService
                 }
             }
         }
-        public void Save(BookStorage bookStorage) 
+        public void Save(FakeBookStorage bookStorage) 
         {
             List<Book> books = BookList.Select(pair => pair.Value).ToList();
 
